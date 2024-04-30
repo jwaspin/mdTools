@@ -17,14 +17,14 @@
       },
       "$ref": "./scope.json#"
     },
-    "standaloneQualityReport": {
+    "qualityEvaluationReportInformation": {
       "description": "Reference to an external standalone quality report.",
       "translation": {
         "ISO 19115-2": [
-          "MI_Metadata > DQ_DataQuality > standaloneQualityReport"
+          "MI_Metadata > DQ_DataQuality > QualityEvaluationReportInformation"
         ]
       },
-      "$ref": "./standaloneQualityReport.json#"
+      "$ref": "./qualityEvaluationReportInformation.json#"
     },
     "report": {
       "type": "array",
