@@ -1,7 +1,0 @@
-{
-    "groundResolution": {
-        "type": "distance",
-        "value": 999.9,
-        "unitOfMeasure": "units"
-    }
-}
