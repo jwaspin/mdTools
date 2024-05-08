@@ -1,21 +1,19 @@
 {
-  "id": "qualityEvaluationReportInformation.json#",
+  "id": "standaloneQualityReport.json#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "required": ["reportReference", "abstract"],
-  "example": "../examples/qualityEvaluationReportInformation.json",
+  "example": "../examples/standaloneQualityReport.json",
   "description": "Reference to an external standalone quality report.",
   "translation": {
-    "ISO 19115-2": [
-      "MI_Metadata > DQ_DataQuality > QualityEvaluationReportInformation"
-    ]
+    "ISO 19115-2": ["MI_Metadata > DQ_DataQuality > standaloneQualityReport"]
   },
   "properties": {
     "reportReference": {
       "description": "Reference to the associated standalone quality report.",
       "translation": {
         "ISO 19115-2": [
-          "DQ_DataQuality > qualityEvaluationReportInformation > reportReference"
+          "DQ_DataQuality > standaloneQualityReport > reportReference"
         ]
       },
       "$ref": "./citation.json#"
@@ -24,9 +22,7 @@
       "type": "string",
       "description": "Abstract for the associated standalone quality report.",
       "translation": {
-        "ISO 19115-2": [
-          "DQ_DataQuality > qualityEvaluationReportInformation > abstract"
-        ]
+        "ISO 19115-2": ["DQ_DataQuality > standaloneQualityReport > abstract"]
       }
     }
   }
